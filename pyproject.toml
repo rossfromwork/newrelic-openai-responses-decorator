@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "newrelic-openai-responses-decorator"
+version = "0.1.0"
+description = "Temporary New Relic AI Monitoring instrumentation for the OpenAI Responses API"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["newrelic>=14.0.0", "openai"]
+
+[tool.setuptools]
+packages = ["newrelic_openai_responses_decorator"]
