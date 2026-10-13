@@ -39,4 +39,4 @@ Tested with the Python agent 14.x and the Responses API (`create`, `parse`; non-
 - **Content missing:** events appear but message content (prompt/response text) is absent. This usually means `ai_monitoring.record_content.enabled` is `false`, so content is not captured. Set it to `true` to capture content.
 
 ## Support
-Contact your New Relic account team. Background and details are in FINDINGS.md.
+Contact your New Relic account team. For more details, see the repository issues or documentation.
